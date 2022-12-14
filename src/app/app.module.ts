@@ -9,7 +9,7 @@ import { PostsComponent } from './posts/posts.component';
 import { PostCardComponent } from './post-card/post-card.component';
 import { ModalComponent, ModalBodyDirective } from './modal/modal.component';
 import { ModalService } from './modal/modal.service';
-import { ModalContainerComponent } from './modal-container/modal-container.component';
+import { RoutableModalContainerComponent } from './routable-modal-container/routable-modal-container.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { ModalContainerComponent } from './modal-container/modal-container.compo
     PostCardComponent,
     ModalComponent,
     ModalBodyDirective,
-    ModalContainerComponent
+    RoutableModalContainerComponent
   ],
   imports: [
     BrowserModule,

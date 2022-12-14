@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModalContainerComponent } from './modal-container.component';
+import { RoutableModalContainerComponent } from './routable-modal-container.component';
 
 describe('ModalContainerComponent', () => {
-  let component: ModalContainerComponent;
-  let fixture: ComponentFixture<ModalContainerComponent>;
+  let component: RoutableModalContainerComponent;
+  let fixture: ComponentFixture<RoutableModalContainerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ModalContainerComponent ]
+      declarations: [ RoutableModalContainerComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ModalContainerComponent);
+    fixture = TestBed.createComponent(RoutableModalContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
