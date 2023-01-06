@@ -24,7 +24,7 @@ export class ModalService {
   openModal(modalContainerRef: ViewContainerRef, modalBodyType: ElementRef) {
     this.modalRef = modalContainerRef.createComponent(ModalComponent);
 
-    this.modalRef.instance.title = 'title'
+    // this.modalRef.instance.title = 'title'
 
     const viewContainerRef = this.modalRef.instance.body.viewContainerRef;
     viewContainerRef.clear();
