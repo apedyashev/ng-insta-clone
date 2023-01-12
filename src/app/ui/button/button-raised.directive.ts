@@ -9,9 +9,9 @@ export class UiButtonRaisedDirective {
 
   private defaultClasses = `py-1 px-3 border border-gray-300 rounded text-white text-center focus:outline-none hover:shadow`;
   private colorClassesMap = {
-    primaryEnabled: 'bg-blue-800 cursor-pointer',
+    primaryEnabled: 'bg-blue-800 cursor-pointer hover:bg-blue-700 active:bg-blue-600',
     primaryDisabled: 'bg-blue-300 cursor-default',
-    accentEnabled: 'bg-red-500 cursor-pointer',
+    accentEnabled: 'bg-red-500 cursor-pointer hover:bg-red-400 active:bg-red-300',
     accentDisabled: 'bg-red-200 cursor-default',
     default: 'text-current',
   };
