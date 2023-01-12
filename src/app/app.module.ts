@@ -10,6 +10,7 @@ import { PostCardComponent } from './post-card/post-card.component';
 import { ModalComponent, ModalBodyDirective } from './modal/modal.component';
 import { ModalService } from './modal/modal.service';
 import { RoutableModalContainerComponent } from './routable-modal-container/routable-modal-container.component';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RoutableModalContainerComponent } from './routable-modal-container/rout
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    AuthModule,
   ],
   providers: [ModalService],
   bootstrap: [AppComponent]

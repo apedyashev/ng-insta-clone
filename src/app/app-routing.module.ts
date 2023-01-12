@@ -13,6 +13,7 @@ const routes: Routes = [
       { path: 'p/:id', component: RoutableModalContainerComponent, data: { component: PostDetailComponent } }
     ]
   },
+  { path: '', loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule) },
 ];
 
 @NgModule({
